@@ -304,3 +304,29 @@ font-size:11px;
 border-top:1px #cebf91 dashed;
 }
 
+/*--------------------------circle arrangement-------------*/
+#divCircle { 
+    width: 500px;
+    height: 500px;  
+    position: relative;
+}
+ 
+#divCircle img{
+    position: absolute;
+    width: 21%;
+    height: 21%;
+}
+ 
+#middleBubble {
+  text-align:center;
+  vertical-align:top;
+  background: "http://placekitten.com/400/400"; //a "speech bubble" that will contain the text.
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #252525; 
+  height:50%;       
+  width: 50%;   
+  margin: auto;
+  position: absolute;
+  text-align:center;
+}
