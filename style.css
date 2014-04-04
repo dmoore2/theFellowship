@@ -187,6 +187,15 @@ margin:auto auto 20px auto;
 height:auto;
 background-color:#fef8e6;
 }
+
+.center
+{
+margin-left:auto;
+margin-right:auto;
+width:70%;
+background-color:#fef8e6;
+}
+
 .left_content{
 width:410px;
 float:left;
@@ -304,3 +313,37 @@ font-size:11px;
 border-top:1px #cebf91 dashed;
 }
 
+/*--------------------------circle arrangement-------------*/
+#divCircle { 
+    width: 700px;
+    height: 700px;  
+    position: relative;
+}
+ 
+#divCircle img{
+    position: absolute;
+    width: 21%;
+    height: 21%;
+}
+ 
+#middleBubble {
+  text-align:center;
+  vertical-align:center;
+  background-color:#fef8e6;
+  /*background: url(http://placekitten.com/400/400); //a "speech bubble" that will contain the text.*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #252525; 
+  height:35%;       
+  width: 42%;   
+  margin: auto;
+  position: absolute;
+  text-align:center;
+}
+
+.middleBubbleText {
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  background-color:#fef8e6;
+}
