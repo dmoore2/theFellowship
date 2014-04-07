@@ -1,3 +1,8 @@
+@font-face {
+font-family: 'ringbearer';
+src: url(assets/ringbearer.TTF);
+}
+
 body
 {
 background:url(images/bg.jpg) no-repeat center top #000000;
@@ -131,6 +136,7 @@ background:url(images/header_bg.jpg) no-repeat top center;
 .logo{
 width:290px;
 text-align:center;
+font-family:'ringbearer';
 font-size:28px;
 color:#7e5025;
 float:left;
